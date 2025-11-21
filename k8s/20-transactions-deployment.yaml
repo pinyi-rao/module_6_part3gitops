@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: transactions
-          image: ghcr.io/pinyi-rao/module_6_part3-transactions:5eb853e834e6baefa6c3a2a3ebafe73ffea5fc2d
+          image: ghcr.io/pinyi-rao/module_6_part3-transactions:bbbba3a15ac369b930cc41750e02352d86eea316
           imagePullPolicy: IfNotPresent
           ports:
             - name: http

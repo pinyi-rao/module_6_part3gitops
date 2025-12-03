@@ -18,7 +18,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: syncer
-          image: ghcr.io/pinyi-rao/module_6_part3-syncer:3bd8efe9bdbeb9b72b8c93fb3a7195a684468ce5
+          image: ghcr.io/pinyi-rao/module_6_part3-syncer:c24814b52f5adfa42055b5b65c5aea7c785f779d
           env:
             - name: SRC_URI
               value: mongodb://mongo-backend:27017

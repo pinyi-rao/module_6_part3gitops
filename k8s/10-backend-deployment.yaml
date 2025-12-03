@@ -5,7 +5,7 @@ metadata:
   labels:
     app: backend
 spec:
-  replicas: 3
+  replicas: 4
   revisionHistoryLimit: 2
   selector:
     matchLabels:
@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: backend
-          image: ghcr.io/pinyi-rao/module_6_part3-backend:bbbba3a15ac369b930cc41750e02352d86eea316
+          image: ghcr.io/pinyi-rao/module_6_part3-backend:3bd8efe9bdbeb9b72b8c93fb3a7195a684468ce5
           imagePullPolicy: IfNotPresent
           ports:
             - name: http

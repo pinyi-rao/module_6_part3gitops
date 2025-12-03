@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: backend
-          image: ghcr.io/pinyi-rao/module_6_part3-backend:c24814b52f5adfa42055b5b65c5aea7c785f779d
+          image: ghcr.io/pinyi-rao/module_6_part3-backend:e7952a252bbd125e678b2bb8cce040fbd3dd69b4
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
